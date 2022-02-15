@@ -227,6 +227,7 @@ footer #sbclogo img{
     display: flex;
     flex-direction: row;
     width: 500px;
+    margin-left: 90px;
 }
 
 #footer1{
@@ -250,7 +251,7 @@ footer #sbclogo img{
 #Member{
     width: 300px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 250px;
 }
 
 #head{
@@ -267,15 +268,31 @@ footer #sbclogo img{
 #frontMember{
     width: 100px;
     margin-right: 10px;
-    margin-left: 10px;
 }
 #backMember{
     width: 100px;
-    margin-right: 10px;
     margin-left: 10px;
 }
 
 #Member #backMember #king img{
     width: 15px;
     float: left;
+}
+
+@media screen and (max-height: 760px) {
+    footer {
+        display: none;
+    }
+}
+@media screen and (max-width: 880px) {
+    footer {
+        display: none;
+    }
+}
+
+#RC{
+    width: 50%;
+}
+#LC{
+    width: 50%;
 }
