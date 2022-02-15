@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.small_logo {
+    width: 20;
+}
+.bd-navbar {
+    padding: 0;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+}
+.navbar-brand {
+    margin: 0;
+    font-family: "Cafe24Ssurround";
+}
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Cafe24Ssurround";
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+.copyright-text {
+    font-family: "Cafe24Ssurround";
+    font-size: 12px;
+    color: #7c7c7c;
+}
+
+/* 시작화면 */
+.sbc_mbti_logo {
+    width: 300px;
+    margin: 0 auto;
+}
+.question {
+    display: none;
+}
+.main-title {
+    font-size: 60px;
+    color: #F28D35;
+}
+.sub-title {
+    font-size: 24px;
+    font-weight: 100;
+    color: #ebebeb;
+}
+.updown-slash {
+    width: 166px;
+    margin: 0 auto;
+}
+.start-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-start {
+    font-size: 16px;
+    color:#ff9300;
+    background-color: #1f1f1f;
+    border:#1f1f1f;
+}
+.btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
+    font-size: 30px;
+    border-radius: 50px;
+    height: 70px;
+    color:#000000;
+    background-color: #ff9300;
+    border:#000000;
+}
+.btn-start:active, .btn-start:focus {
+    background-color: #ff9300 !important;
+    border:#1f1f1f !important;
+    font-size: 30px;
+    border-radius: 50px;
+    height: 70px;
+    color:#000000;
+}
+
+/* 문제 화면 */
+.btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
+    position: relative;
+    background-color: #ff9300;
+    border:#ff9300;
+    border-radius: 50px;
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 17px;
+    color: #000000;
+}
+.btn-answer:hover {
+    background-color: #ffffff !important;
+    border:#ff9300 !important;
+    border-radius: 50px;
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 17px;
+    color: #ff9300;
+}
+.progress-bar {
+    background-color: #ff9300;
+    height: 20px;
+    border-radius: 50px;
+}
+.progress {
+    background-color: #ffffff;
+    height: 20px;
+    border-radius: 50px;
+}
+.slash-element {
+    width: 24px;
+    margin: 0 auto;
+}
+.question-content {
+    font-size: 30px;
+    color: #ff9300;
+}
+.rectangle {
+    width: 500px;
+    height: 8px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+.mid-rectangle {
+    width: 288px;
+    height: 1px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+
+/* 결과 화면 */
+.result-message {
+    color: #ff9300;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 100;
+}
+.result-developer {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ff9300;
+}
+.card {
+    background-color: #000000;
+    margin: 0 auto;
+}
+.border {
+    border: 2px solid #ff9300 !important;
+    border-radius: 20px;
+}
+.result-explain {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.share-message {
+    margin: 0 auto;
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: 100;
+}
+.result {
+    display: none;
+}
+#img {
+    width: 200px;
+    margin: 0 auto;
+}
