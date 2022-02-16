@@ -110,7 +110,7 @@ article {
 .btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
     font-size: 30px;
     border-radius: 50px;
-    height: 70px;
+    height: 85px;
     color:#000000;
     background-color: #ff9300;
     border:#000000;
@@ -120,7 +120,7 @@ article {
     border:#1f1f1f !important;
     font-size: 30px;
     border-radius: 50px;
-    height: 70px;
+    height: 85px;
     color:#000000;
 }
 
@@ -216,6 +216,10 @@ article {
 #img {
     width: 200px;
     margin: 0 auto;
+}
+
+.linkimage {
+    width: 30px;
 }
 
 /* footer css */
