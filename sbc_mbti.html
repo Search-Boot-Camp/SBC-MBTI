@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div id="wrapper">
+  <div id="wrapper mb-3">
     <header class="navbar navbar-expand-md navbar-dark bd-navbar">
       <nav class="navbar navbar-light" style="background-color: #F28D35;">
         <div class="container-fluid">
@@ -24,7 +24,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">부트 캠프 찾기</a>
+                <a class="nav-link active" aria-current="page" href="http://searchbootcamp.com.s3-website.ap-northeast-2.amazonaws.com/">부트 캠프 찾기</a>
               </li>
             </ul>
           </div>
@@ -59,17 +59,26 @@
           <div class="card-body text-secondary">
             <h3 id="explain" class="result-explain">설명</h3> 
           </div>
+          <div class="start-cover mt-1 mb-3">
+            <button type="button" class="btn-start btn btn-primary" onclick="location.href='http://searchbootcamp.com.s3-website.ap-northeast-2.amazonaws.com/'">SearchBootCamp</button>
+          </div>
         </div>
       </article>
     </div>
   </div>
-
+  <div class = "add mt-5 mb-5">
+    <ins class="kakao_ad_area" style="display:none;width: 100%;" 
+    data-ad-unit    = "DAN-4Yrl9UAP5PlLlKFI" 
+    data-ad-width   = "300" 
+    data-ad-height  = "250"></ins> 
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+  </div>  
   <!-- footer -->
   <footer class="footer">
     <div id="RC">
       <div id="Content">
         <div id="sbclogo">
-            <img src="img/SBC_LOGO_누끼.png"></img>
+            <img src="img/SBC_LOGO.png"></img>
         </div>
         <div id="footer1">
             <h2>SBC</h2>
@@ -97,14 +106,13 @@
             <p id="member">김현빈 SMU</p>
             <p id="member">박보성 HUFS</p>
             <div id="king">
-                <img src="img/왕관.png"></img>
+                <img src="img/wanggan.png"></img>
                 <p id="member">이서현 KIT</p>
             </div>
         </div>
       </div>
     </div>
   </footer>
-
   <input type="hidden" id="EI" value="0">
   <input type="hidden" id="SN" value="0">
   <input type="hidden" id="TF" value="0">
