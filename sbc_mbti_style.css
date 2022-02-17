@@ -190,6 +190,14 @@ article {
     font-weight: bolder;
     color: #ff9300;
 }
+.addthis_inline_share_toolbox_ohhi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.at-resp-share:element {
+    margin: 0 auto;
+}
 .card {
     background-color: #000000;
     margin: 0 auto;
